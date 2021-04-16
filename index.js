@@ -44,7 +44,7 @@ async function main () {
                 ItemPrice1: transaction.value,
                 ItemQuantity1: 1,
                 Test: testMode,
-                CampaignId: campaignId,
+                CampaignId: parseInt(campaignId),
                 MediaPartnerId: kickData.partnerId,
                 OrderId: `KICK-${transaction.id}`,
                 CustomerEmail: transaction.email,
